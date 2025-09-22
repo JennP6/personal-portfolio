@@ -1,0 +1,74 @@
+/* File: Navbar.css
+ * Student Name: Jennifer Peart
+ * StudentID: 821385531
+ * Due Date: September 26, 2025 */
+
+ /* Navbar */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: linear-gradient(90deg, #d63384, #6b7280); 
+  color: #fff;
+  border-radius: 6px;
+  height: 80px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Logo & Title */
+
+.logo {
+  height: 60px;
+  width: auto;
+}
+
+.site-title {
+  font-weight: 600;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+/* Navigation Links */
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: 0.2s;
+}
+
+.nav-links a:hover {
+  color: #fdf2f8; 
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 16px 20px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 12px;
+  }
+}
