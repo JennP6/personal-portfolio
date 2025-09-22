@@ -33,7 +33,7 @@ export default function About() {
           <div className="about-buttons">
         
             <a
-              href="/resume/Resume.pdf"
+              href={process.env.PUBLIC_URL + "/Resume/Resume.pdf"}
               target="_blank"
               rel="noopener noreferrer"
               className="primary-btn"
@@ -42,7 +42,7 @@ export default function About() {
             </a>
 
             <a
-              href="/thesis/Thesis.pdf"
+              href={process.env.PUBLIC_URL + "/Thesis/Thesis.pdf"}
               target="_blank"
               rel="noopener noreferrer"
               className="primary-btn"
