@@ -22,6 +22,7 @@ export default function App() {
   /* JSX for the App */
 
   return (
+    <Router basename="/personal-portfolio">
     <div className="App">
 
     {/* Navbar */}
@@ -29,7 +30,7 @@ export default function App() {
       <Navbar />
       <main className="main-content">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Navigate to="/home" replace />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
@@ -44,5 +45,6 @@ export default function App() {
         © Jennifer Peart 821385531 COMP229 FALL 2025
       </footer>
     </div>
+    </Router>
   );
 }
