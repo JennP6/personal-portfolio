@@ -6,7 +6,7 @@
 /* Importing necessary libraries and components */
 
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -22,7 +22,6 @@ export default function App() {
   /* JSX for the App */
 
   return (
-    <Router basename="/personal-portfolio">
     <div className="App">
 
     {/* Navbar */}
@@ -45,6 +44,5 @@ export default function App() {
         © Jennifer Peart 821385531 COMP229 FALL 2025
       </footer>
     </div>
-    </Router>
   );
 }
