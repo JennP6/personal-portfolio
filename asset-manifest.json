@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.34d639c1.css",
+    "main.js": "/personal-portfolio/static/js/main.0ed6e3d8.js",
+    "static/media/MealPlanning.png": "/personal-portfolio/static/media/MealPlanning.d96ca48b19001c09bb6a.png",
+    "static/media/EventRegistration.png": "/personal-portfolio/static/media/EventRegistration.007c3ff5eac64be89f2c.png",
+    "static/media/face.png": "/personal-portfolio/static/media/face.06b23ace72ba331bf769.png",
+    "static/media/CustomizedStyle.png": "/personal-portfolio/static/media/CustomizedStyle.3dbd07e837b5536f815f.png",
+    "static/media/Logo.png": "/personal-portfolio/static/media/Logo.7910c1a3d2cb691a2795.png",
+    "index.html": "/personal-portfolio/index.html",
+    "main.34d639c1.css.map": "/personal-portfolio/static/css/main.34d639c1.css.map",
+    "main.0ed6e3d8.js.map": "/personal-portfolio/static/js/main.0ed6e3d8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34d639c1.css",
+    "static/js/main.0ed6e3d8.js"
+  ]
+}
